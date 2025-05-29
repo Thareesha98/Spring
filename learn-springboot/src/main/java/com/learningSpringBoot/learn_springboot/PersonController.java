@@ -14,7 +14,8 @@ public class PersonController {
 	public List<Person> retrieveAllCourses(){
 		return Arrays.asList(
 				new Person(1,"Thareesha",23,"Colombo"),
-				new Person(2,"Cariya", 22,"Gampaha")
+				new Person(2,"Cariya", 22,"Gampaha"),
+				new Person(3,"Aneeee" , 11 , "Kurunagala")
 		);
 	}
 }
